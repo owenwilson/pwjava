@@ -32,6 +32,15 @@ public class Asignamiento {
 		System.out.println("resultado multiplicacion: "+operacion1.multiplicar(2,5));
 		System.out.println("resultado division: "+operacion1.dividir(10.0,2.0));
 		System.out.println("resultado residuo: "+operacion1.residuo(10.0,2.0));
+		
+		//Control de flujo 
+		
+		int varA = 6;
+		int varB = 7;
+		
+		ControlFlujo controlflujo = new ControlFlujo();
+		System.out.println(controlflujo.numeroMayoMenor(varA, varB));
+		System.out.println(controlflujo.controlSwtich(varA));
 	}
 
 }
